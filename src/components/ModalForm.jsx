@@ -25,7 +25,7 @@ export default function ModalForm({ isOpen, setIsOpen }) {
         </p>
 
         <form
-          action="https://formspree.io/f/mnnbqejn"
+          action="https://formspree.io/f/mbdowaaa"
           method="POST"
           className="space-y-5"
         >
