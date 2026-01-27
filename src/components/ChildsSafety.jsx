@@ -106,7 +106,7 @@ export default function ChildsSafety({ setFormOpen }) {
       </section>
 
       {/* ===== Mobile Section (No animation) ===== */}
-      <section className="lg:hidden mt-24 w-full relative rounded-[25px] bg-[#24211D] overflow-hidden px-6 py-6">
+      <section  id="app" className="lg:hidden mt-24 w-full relative rounded-[25px] bg-[#24211D] overflow-hidden px-6 py-6">
         <div className="w-full grid grid-cols-1 gap-8 items-center">
           {/* Image First */}
           <div className="relative w-full h-[300px] sm:h-[400px] rounded-[25px] overflow-hidden">

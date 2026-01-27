@@ -143,7 +143,7 @@ export default function StayConnected() {
       </section>
 
       {/* Mobile Section */}
-      <section className="sm:hidden w-full mx-auto relative rounded-[25px] bg-[#24211D] overflow-hidden px-0 py-0" style={{ marginTop: "6rem", marginBottom: "0" }}>
+      <section id="features" className="sm:hidden w-full mx-auto relative rounded-[25px] bg-[#24211D] overflow-hidden px-0 py-0" style={{ marginTop: "6rem", marginBottom: "0" }}>
         {/* Right-side spiral image */}
         <div className="absolute top-0 right-0">
           <img
