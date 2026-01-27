@@ -33,7 +33,7 @@ export default function CompleteTransportation() {
           duration: 0.8,
           ease: "power3.out",
         },
-        "-=0.6"
+        "-=0.6",
       );
 
       // Cards stagger animation (left-right parallax style)
@@ -46,7 +46,7 @@ export default function CompleteTransportation() {
           ease: "power2.out",
           stagger: 0.2,
         },
-        "-=0.3"
+        "-=0.3",
       );
     }, sectionRef);
 
@@ -55,6 +55,7 @@ export default function CompleteTransportation() {
 
   return (
     <section
+      id="about"
       ref={sectionRef}
       className="w-full lg:max-w-[80%] mx-auto mt-24 flex flex-col space-y-6 px-[0px] lg:px-6"
     >
@@ -71,7 +72,13 @@ export default function CompleteTransportation() {
         </p>
       </div>
       <p className="font-[400] text-[20px] capitalize">
-        GuardianRide’s leaders bring a combined 100-years of experience
+        GuardianRide is more than a ride—it’s a connected safety system built
+        for modern student transportation. We combine real-time visibility,
+        secure route control, and seamless communication to keep parents
+        informed, drivers supported, and schools in full control. With
+        leadership backed by deep industry knowledge and drivers with 35 years
+        of combined experience, GuardianRide delivers safe, accountable
+        transportation you can trust.
       </p>
 
       {/* Row 2: First set of cards */}
@@ -98,10 +105,12 @@ export default function CompleteTransportation() {
         {/* Right Card */}
         <div
           className="complete-card flex-1 md:flex-[3] rounded-[20px] bg-[#BDAB93] p-6 flex flex-col justify-end h-64"
-          style={{ backgroundImage: "url(/images/driver-app.png)",
+          style={{
+            backgroundImage: "url(/images/driver-app.png)",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            backgroundRepeat: "no-repeat", }}
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <h3 className="text-white font-[500] text-xl mb-2 mt-[50%] md:mt-0">
             Driver App
@@ -117,10 +126,12 @@ export default function CompleteTransportation() {
       <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
         <div
           className="complete-card flex-1 md:flex-[3] rounded-[20px] bg-[#BDAB93] p-6 flex flex-col justify-end h-64"
-          style={{ backgroundImage: "url(/images/school-dashboard.png)",
+          style={{
+            backgroundImage: "url(/images/school-dashboard.png)",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            backgroundRepeat: "no-repeat", }}
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <h3 className="text-white font-[500] text-xl mb-2 mt-[50%] md:mt-0">
             School Dashboard
@@ -132,10 +143,12 @@ export default function CompleteTransportation() {
 
         <div
           className="complete-card relative flex-1 md:flex-[7] rounded-[20px] bg-[#5A684E] flex flex-col justify-end p-6 h-64"
-          style={{ backgroundImage: "url(/images/parent-dashboard.png)",
+          style={{
+            backgroundImage: "url(/images/parent-dashboard.png)",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            backgroundRepeat: "no-repeat", }}
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <h3 className="text-white font-[500] text-xl mb-2 mt-[50%] md:mt-0">
             Parent Dashboard

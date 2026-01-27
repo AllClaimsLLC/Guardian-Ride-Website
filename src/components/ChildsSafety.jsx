@@ -7,7 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function ChildsSafety() {
+export default function ChildsSafety({ setFormOpen }) {
   const sectionRef = useRef(null);
   const imageRef = useRef(null);
   const leftRef = useRef(null);
@@ -60,6 +60,7 @@ export default function ChildsSafety() {
     <>
       {/* ===== Desktop Section ===== */}
       <section
+      id="app"
         ref={sectionRef}
         className="hidden lg:block w-full relative rounded-[25px] bg-[#24211D] overflow-hidden px-6 py-6"
       >
@@ -78,11 +79,11 @@ export default function ChildsSafety() {
               secure school transportation.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
-              <button className="flex items-center gap-2 px-6 py-3 bg-white text-black rounded-full font-outfit font-medium hover:bg-gray-100 transition">
+              <button  onClick={() => setFormOpen(true)} className="flex items-center gap-2 px-6 py-3 bg-white text-black rounded-full font-outfit font-medium hover:bg-gray-100 transition">
                 Get Started
                 <RiArrowRightSLine size={18} />
               </button>
-              <button className="flex items-center gap-2 px-6 py-3 bg-white text-black rounded-full font-outfit font-medium hover:bg-gray-100 transition">
+              <button  onClick={() => setFormOpen(true)} className="flex items-center gap-2 px-6 py-3 bg-white text-black rounded-full font-outfit font-medium hover:bg-gray-100 transition">
                 Book a Demo
                 <RiArrowRightSLine size={18} />
               </button>

@@ -7,7 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function DriveSafely() {
+export default function DriveSafely({ setFormOpen }) {
   const section1Ref = useRef(null);
   const section2Ref = useRef(null);
   const left1Ref = useRef(null);
@@ -223,7 +223,7 @@ export default function DriveSafely() {
 
             {/* Button */}
             <div className="mt-6">
-              <button className="inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-full font-medium hover:bg-gray-800 transition w-fit">
+              <button onClick={() => setFormOpen(true)} className="inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-full font-medium hover:bg-gray-800 transition w-fit">
                 Book a Demo <RiArrowRightSLine size={16} />
               </button>
             </div>

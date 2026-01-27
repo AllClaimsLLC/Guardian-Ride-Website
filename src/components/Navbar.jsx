@@ -6,7 +6,26 @@ import { RiArrowRightSLine } from "react-icons/ri";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const menuItems = ["About", "Features", "Solutions", "App"];
+  const menuItems = [
+  { label: "About", id: "about" },
+  { label: "Features", id: "features" },
+  { label: "Solutions", id: "solutions" },
+  { label: "App", id: "app" },
+];
+
+const handleScroll = (id) => {
+  const el = document.getElementById(id);
+  if (!el) return;
+
+  el.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+
+  setIsOpen(false);
+};
+
+
 
   return (
     <nav className="w-full top-0 left-0">
@@ -23,15 +42,17 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 absolute left-1/2 transform -translate-x-1/2">
-          {menuItems.map((item) => (
-            <li
-              key={item}
-              className="text-gray-900 hover:text-gray-700 font-medium cursor-pointer"
-            >
-              {item}
-            </li>
-          ))}
-        </ul>
+  {menuItems.map((item) => (
+    <li
+      key={item.id}
+      onClick={() => handleScroll(item.id)}
+      className="text-gray-900 hover:text-gray-700 font-medium cursor-pointer"
+    >
+      {item.label}
+    </li>
+  ))}
+</ul>
+
 
         {/* Download Button (Desktop) */}
         <div className="hidden md:flex">
@@ -69,13 +90,14 @@ export default function Navbar() {
         >
           <ul className="flex flex-col items-center space-y-6">
             {menuItems.map((item) => (
-              <li
-                key={item}
-                className="text-white hover:text-gray-700 font-medium cursor-pointer text-lg"
-              >
-                {item}
-              </li>
-            ))}
+    <li
+      key={item.id}
+      onClick={() => handleScroll(item.id)}
+      className="text-white hover:text-gray-400 font-medium cursor-pointer text-lg"
+    >
+      {item.label}
+    </li>
+  ))}
           </ul>
 
           <div className="mt-6 flex justify-center">

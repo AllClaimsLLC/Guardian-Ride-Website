@@ -81,6 +81,7 @@ export default function StayConnected() {
     <>
       {/* Desktop / Tablet Section */}
       <section
+      id="features"
         ref={sectionRef}
         className="hidden sm:block w-full mx-auto my-24 relative rounded-[25px] bg-[#24211D] overflow-hidden px-6 py-12"
       >

@@ -14,10 +14,12 @@ import HowItWorks from "@/components/HowItWorks";
 import Committed from "@/components/Committed";
 import ChildsSafety from "@/components/ChildsSafety";
 import Footer from "@/components/Footer";
+import ModalForm from "@/components/ModalForm";
 
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
+    const [formOpen, setFormOpen] = useState(false);
   const [loading, setLoading] = useState(true);
   const cursorRef = useRef(null);
   const cursorRingRef = useRef(null);
@@ -143,12 +145,13 @@ export default function Home() {
         <HeroSection />
         <CompleteTransportation />
         <StayConnected />
-        <DriveSafely />
+        <DriveSafely setFormOpen={setFormOpen} />
         <HowItWorks />
         <Committed />
-        <ChildsSafety />
+        <ChildsSafety setFormOpen={setFormOpen} />
 
-        <Footer />  
+        <Footer />
+        <ModalForm isOpen={formOpen} setIsOpen={setFormOpen} />  
       </div>
     </main>
   );

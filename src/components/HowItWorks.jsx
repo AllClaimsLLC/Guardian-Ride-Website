@@ -91,6 +91,7 @@ export default function HowItWorks() {
 
   return (
     <section
+    id="solutions"
       ref={sectionRef}
       className="w-full mx-auto relative rounded-[25px] bg-[#24211D] overflow-hidden px-6 py-16"
     >
