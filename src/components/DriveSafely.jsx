@@ -306,7 +306,7 @@ export default function DriveSafely({ setFormOpen }) {
             </div>
 
             <div className="mt-4">
-              <button className="text-[12px] inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-full font-medium hover:bg-white hover:text-black transition w-fit">
+              <button onClick={() => setFormOpen(true)} className="text-[12px] inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-full font-medium hover:bg-white hover:text-black transition w-fit">
                 Book a Demo <RiArrowRightSLine size={12} />
               </button>
             </div>

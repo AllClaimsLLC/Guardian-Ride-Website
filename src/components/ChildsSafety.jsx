@@ -128,11 +128,11 @@ export default function ChildsSafety({ setFormOpen }) {
               secure school transportation.
             </p>
             <div className="flex gap-4 pt-2">
-              <button className="flex items-center gap-2 px-4 py-2 bg-white text-black rounded-full font-outfit font-medium text-[12px] hover:bg-gray-100 transition">
+              <button onClick={() => setFormOpen(true)} className="flex items-center gap-2 px-4 py-2 bg-white text-black rounded-full font-outfit font-medium text-[12px] hover:bg-gray-100 transition">
                 Get Started
                 <RiArrowRightSLine size={16} />
               </button>
-              <button className="flex items-center gap-2 px-4 py-2 bg-white text-black rounded-full font-outfit font-medium text-[12px] hover:bg-gray-100 transition">
+              <button onClick={() => setFormOpen(true)} className="flex items-center gap-2 px-4 py-2 bg-white text-black rounded-full font-outfit font-medium text-[12px] hover:bg-gray-100 transition">
                 Book a Demo
                 <RiArrowRightSLine size={16} />
               </button>
