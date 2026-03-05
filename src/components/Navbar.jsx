@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { RiArrowRightSLine } from "react-icons/ri";
@@ -32,12 +33,14 @@ const handleScroll = (id) => {
       <div className="w-[95%] mx-auto flex justify-between items-center h-16 px-6 lg:px-12">
         {/* Logo */}
         <div id="navbar-logo" className="flex items-center">
+          <Link href="/">
           <img
             src="/logos/Header.png"
             alt="Guardian Ride Logo"
             className="w-auto object-contain"
-            style={{height:"35px"}}
+            style={{height:"35px", cursor:"pointer"}}
           />
+          </Link>
         </div>
 
         {/* Desktop Menu */}

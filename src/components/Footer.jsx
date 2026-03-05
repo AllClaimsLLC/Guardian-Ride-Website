@@ -1,4 +1,7 @@
 "use client";
+
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <>
@@ -32,14 +35,15 @@ export default function Footer() {
           <div className="flex flex-col justify-between space-y-10">
             {/* Row 1: Logo */}
             <div>
-              <img
-                src="/logos/Footer.png"
-                alt="Guardian Ride Logo"
-                className="sm:h-12 w-auto object-contain"
-                style={{height:"40px"}}
-              />
+              <Link href="/">
+                <img
+                  src="/logos/Footer.png"
+                  alt="Guardian Ride Logo"
+                  className="sm:h-12 w-auto object-contain"
+                  style={{ height: "40px", cursor: "pointer" }}
+                />
+              </Link>
             </div>
-
             {/* Row 2: Tagline */}
             <div>
               <h1 className="font-lexend text-[2rem] sm:text-[3rem] lg:text-[80px] leading-[100px] font-[500]">
@@ -90,7 +94,7 @@ export default function Footer() {
                 src="/logos/Footer.png"
                 alt="Guardian Ride Logo"
                 className="sm:h-12 w-auto object-contain"
-                style={{height:"40px"}}
+                style={{ height: "40px" }}
               />
             </div>
 
@@ -142,11 +146,17 @@ export default function Footer() {
 
           {/* Right Links */}
           <div className="flex space-x-6">
-            <a href="#" className="hover:text-gray-500 transition">
-              Disclaimer
+            <a
+              href="/privacy-policy"
+              className="hover:text-gray-500 transition"
+            >
+              Privacy Policy
             </a>
-            <a href="#" className="hover:text-gray-500 transition">
-              Cookies Statement
+            <a
+              href="/terms-and-conditions"
+              className="hover:text-gray-500 transition"
+            >
+              Terms and Conditions
             </a>
           </div>
         </div>
