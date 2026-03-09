@@ -226,7 +226,7 @@ export default function DangerousDrivingPolicy() {
               </div>
 
               <h1
-                id="howdoesguardianrideidentifydangerousdriving"
+                id="howdoesguardianRideidentifydangerousdriving"
                 className="text-[20px] font-[500] mt-10 mb-4"
               >
                 2. How does GuardianRide identify dangerous driving?
