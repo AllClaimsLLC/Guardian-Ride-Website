@@ -164,6 +164,12 @@ export default function Footer() {
             >
               Community Guidelines
             </a>
+            <a
+              href="/dangerous-driving-policy"
+              className="hover:text-gray-500 transition"
+            >
+              Dangerous Driving Policy
+            </a>
           </div>
         </div>
       </section>
