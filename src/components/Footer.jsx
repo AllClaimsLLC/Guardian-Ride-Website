@@ -158,6 +158,12 @@ export default function Footer() {
             >
               Terms and Conditions
             </a>
+            <a
+              href="/community-guidelines"
+              className="hover:text-gray-500 transition"
+            >
+              Community Guidelines
+            </a>
           </div>
         </div>
       </section>
