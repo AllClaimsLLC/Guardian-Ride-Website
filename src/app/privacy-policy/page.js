@@ -120,20 +120,49 @@ export default function PrivacyPolicy() {
                   <p className="mb-4 text-gray-700 text-[14px]">
                     When you use GuardianRide, you trust us with your personal
                     data. We’re committed to keeping that trust. That starts
-                    with helping you understand our privacy practices. This
-                    notice describes the personal data (“data”) we collect, how
-                    it’s used and shared, and your choices regarding this data.
-                    GuardianRide Privacy Notice: Drivers and Delivery People
-                    Previous version of the Privacy Notice I. Overview II. Data
-                    collections and uses   A. The data we collect   B. How we
-                    use data   C. Core automated processes   D. Cookies and
-                    related technologies   E. Data sharing and disclosure   F.
-                    Data retention and deletion III. Choice and transparency IV.
-                    Legal information   A. Data controllers and Data Protection
-                    Officer   B. Our legal bases for using your data   C. Legal
-                    framework for data transfers   D. Updates to this Privacy
-                    Notice
+                    with helping you understand our privacy practices.
                   </p>
+
+                  <p className="mb-4 text-gray-700 text-[14px]">
+                    This notice describes the personal data (“data”) we collect,
+                    how it’s used and shared, and your choices regarding this
+                    data.
+                  </p>
+
+                  <p className="mb-4 text-gray-700 text-[14px] font-semibold">
+                    GuardianRide Privacy Notice: Drivers and Delivery People
+                  </p>
+
+                  <p className="mb-4 text-gray-700 text-[14px]">
+                    Previous version of the Privacy Notice
+                  </p>
+
+                  <div className="mb-4 text-gray-700 text-[14px] space-y-2">
+                    <p className="font-semibold">I. Overview</p>
+                    <p className="font-semibold">
+                      II. Data collections and uses
+                    </p>
+                    <ul className="ml-6 list-disc space-y-1">
+                      <li>A. The data we collect</li>
+                      <li>B. How we use data</li>
+                      <li>C. Core automated processes</li>
+                      <li>D. Cookies and related technologies</li>
+                      <li>E. Data sharing and disclosure</li>
+                      <li>F. Data retention and deletion</li>
+                    </ul>
+
+                    <p className="font-semibold">
+                      III. Choice and transparency
+                    </p>
+
+                    <p className="font-semibold">IV. Legal information</p>
+                    <ul className="ml-6 list-disc space-y-1">
+                      <li>A. Data controllers and Data Protection Officer</li>
+                      <li>B. Our legal bases for using your data</li>
+                      <li>C. Legal framework for data transfers</li>
+                      <li>D. Updates to this Privacy Notice</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
 
@@ -148,18 +177,18 @@ export default function PrivacyPolicy() {
                 }}
               >
                 <p className="mb-4 text-gray-700 text-[14px]">
-                  Scope This notice applies when you use GuardianRide’s apps or
+                  Scope</p> <p className="mb-4 text-gray-700 text-[14px]">This notice applies when you use GuardianRide’s apps or
                   websites to request or receive products or services, including
-                  rides or deliveries. This notice describes how we collect and
+                  rides or deliveries.</p> <p className="mb-4 text-gray-700 text-[14px]">This notice describes how we collect and
                   use your data if you request or receive products or services
-                  through GuardianRide’s apps or websites. This notice does not
+                  through GuardianRide’s apps or websites.</p> <p className="mb-4 text-gray-700 text-[14px]">This notice does not
                   describe GuardianRide’s collection and use of your data if you
                   use GuardianRide to provide (instead of request or receive)
                   services through GuardianRide’s app or websites, including as
                   a driver. GuardianRide’s notice describing our collection and
                   use of such data is available here. Those who use GuardianRide
                   to either request, receive or provide services are referred to
-                  as “users” in this notice. Our privacy practices are subject
+                  as “users” in this notice.</p> <p className="mb-4 text-gray-700 text-[14px]">Our privacy practices are subject
                   to applicable laws in the places in which we operate. The
                   types of data processing that such laws require, allow, or
                   prohibit vary globally. Therefore, if you travel across
@@ -540,32 +569,33 @@ export default function PrivacyPolicy() {
                   with these intermediaries to enable their services and for
                   such other purposes as are disclosed in their privacy notices.
                   You may opt out from ad personalization. Customer support
-                  platform and service providers. <a
+                  platform and service providers.{" "}
+                  <a
                     href="https://policies.google.com/privacy?hl=en-US"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 underline"
                   >
                     Google
-                  </a>, in connection with the
-                  use of Google Maps in GuardianRide’s apps. Identity
-                  verification and risk solutions providers. Payment processors
-                  and facilitators. Research partners, including those
-                  performing surveys or research projects in partnership with
-                  GuardianRide or on GuardianRide’s behalf. Social media
-                  companies in connection with GuardianRide’s use of their tools
-                  in GuardianRide’s apps and websites. Service providers that
-                  assist GuardianRide to enhance the safety and security of
-                  GuardianRide apps and services. Service providers that provide
-                  us with artificial intelligence and machine learning tools and
-                  services. Third-party service providers and partners that
-                  integrate with GuardianRide’s apps. Third-party vehicle
-                  suppliers, including fleet and rental partners. Autonomous
-                  vehicle partners that provide rides on GuardianRide apps. 4.
-                  With GuardianRide subsidiaries and affiliates We share data
-                  with our subsidiaries and affiliates to help us provide our
-                  services or conduct data processing on our behalf. 5. For
-                  legal reasons or in the event of a claim or dispute
+                  </a>
+                  , in connection with the use of Google Maps in GuardianRide’s
+                  apps. Identity verification and risk solutions providers.
+                  Payment processors and facilitators. Research partners,
+                  including those performing surveys or research projects in
+                  partnership with GuardianRide or on GuardianRide’s behalf.
+                  Social media companies in connection with GuardianRide’s use
+                  of their tools in GuardianRide’s apps and websites. Service
+                  providers that assist GuardianRide to enhance the safety and
+                  security of GuardianRide apps and services. Service providers
+                  that provide us with artificial intelligence and machine
+                  learning tools and services. Third-party service providers and
+                  partners that integrate with GuardianRide’s apps. Third-party
+                  vehicle suppliers, including fleet and rental partners.
+                  Autonomous vehicle partners that provide rides on GuardianRide
+                  apps. 4. With GuardianRide subsidiaries and affiliates We
+                  share data with our subsidiaries and affiliates to help us
+                  provide our services or conduct data processing on our behalf.
+                  5. For legal reasons or in the event of a claim or dispute
                   GuardianRide may share your data if we believe it’s required
                   by applicable law, regulation, operating license or agreement,
                   legal process or governmental request, insurance policy, or

@@ -136,43 +136,54 @@ export default function Footer() {
       </section>
 
       {/* Secondary Footer Section */}
-      <section className="w-full bg-transparent py-6">
-        <div className="max-w-[93%] mx-auto flex flex-col sm:flex-row justify-between items-center text-sm font-outfit space-y-4 sm:space-y-0">
-          {/* Left Text */}
-          <p className="text-center sm:text-left">
-            Copyright 2012 - 2016 Avada | © 2025 GuardianRide. All rights
-            reserved.
-          </p>
+     <section className="w-full bg-transparent py-6">
+  <div className="max-w-[98%] mx-auto flex flex-col items-center text-sm font-outfit space-y-3 text-center">
+    
+    {/* 1st Row */}
+    <p>
+      Copyright 2012 - 2016 Avada | © 2025 GuardianRide. All rights
+      reserved.
+    </p>
 
-          {/* Right Links */}
-          <div className="flex space-x-6">
-            <a
-              href="/privacy-policy"
-              className="hover:text-gray-500 transition"
-            >
-              Privacy Policy
-            </a>
-            <a
-              href="/terms-and-conditions"
-              className="hover:text-gray-500 transition"
-            >
-              Terms and Conditions
-            </a>
-            <a
-              href="/community-guidelines"
-              className="hover:text-gray-500 transition"
-            >
-              Community Guidelines
-            </a>
-            <a
-              href="/dangerous-driving-policy"
-              className="hover:text-gray-500 transition"
-            >
-              Dangerous Driving Policy
-            </a>
-          </div>
-        </div>
-      </section>
+    {/* 2nd Row */}
+    <div className="flex flex-wrap sm:flex-row flex-col justify-center items-center gap-4 text-center">
+  <a href="/privacy-policy" className="hover:text-gray-500 transition">
+    Privacy Policy
+  </a>
+  <span className="hidden sm:inline">|</span>
+
+  <a href="/terms-and-conditions" className="hover:text-gray-500 transition">
+    Terms and Conditions
+  </a>
+  <span className="hidden sm:inline">|</span>
+
+  <a href="/community-guidelines" className="hover:text-gray-500 transition">
+    Community Guidelines
+  </a>
+  <span className="hidden sm:inline">|</span>
+
+  <a href="/dangerous-driving-policy" className="hover:text-gray-500 transition">
+    Dangerous Driving Policy
+  </a>
+  <span className="hidden sm:inline">|</span>
+
+  <a href="/service-animal-and-assistive-device-policy" className="hover:text-gray-500 transition">
+    Service Animal and Assistive Device Policy
+  </a>
+  <span className="hidden sm:inline">|</span>
+
+  <a href="/user-generated-content-terms" className="hover:text-gray-500 transition">
+    User Generated Content Terms
+  </a>
+  <span className="hidden sm:inline">|</span>
+
+  <a href="/zero-tolerance-policy" className="hover:text-gray-500 transition">
+    Zero Tolerance Policy
+  </a>
+</div>
+
+  </div>
+</section>
     </>
   );
 }
